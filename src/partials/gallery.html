@@ -1,0 +1,31 @@
+<header class="header">
+  <form class="search-form" id="search-form">
+    <input
+      class="search-form__input"
+      type="text"
+      name="query"
+      autocomplete="off"
+      placeholder="Search images..."
+    />
+    <button class="search-form__submit-btn" type="submit">
+      <span class="material-icons-outlined md-36"> search </span>
+    </button>
+  </form>
+</header>
+<main>
+  <section class="gallery-section">
+    <div class="container">
+      <ul class="gallery js-gallery"></ul>
+    </div>
+
+    <button type="button" class="btn btn-primary button" data-action="load-more">
+      <span
+        class="spinner-border spinner-border-sm spinner is-hidden"
+        role="status"
+        aria-hidden="true"
+      ></span>
+
+      <span class="label">More</span>
+    </button>
+  </section>
+</main>

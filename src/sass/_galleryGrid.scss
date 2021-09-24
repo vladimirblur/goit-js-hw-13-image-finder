@@ -1,0 +1,33 @@
+.gallery-section {
+  // background-color: #9da4bd;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.photo-card {
+  display: grid;
+  grid-template-rows: 300px 1fr;
+
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.stats-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.stats {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #f7f7f7;
+  box-shadow: 0px 2px 11px 0px rgba(34, 60, 80, 0.2) inset;
+}

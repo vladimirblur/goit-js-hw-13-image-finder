@@ -1,0 +1,63 @@
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #ff6c00;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search-form__input {
+  width: 300px;
+  height: 36px;
+  padding: 10px;
+  border: none;
+}
+
+.search-form__submit-btn {
+  height: 36px;
+  padding: 0;
+  border: none;
+}
+
+.search-form__btn-icon {
+  font-size: 40px;
+  background-color: #fff;
+}
+
+.material-icons-outlined.md-36 {
+  font-size: 36px;
+}
+
+// .material-icons-outlined {
+//   font-family: 'Material Icons', 'Outlined';
+//   font-feature-settings: 'liga';
+// }
